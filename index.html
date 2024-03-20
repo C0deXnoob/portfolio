@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- <link rel="stylesheet" href="./css/navbar.css"> -->
+        <link rel="stylesheet" href="./css/popup.css">
+    <link rel="stylesheet" href="./css/response.css">
+    
+    <title>My PortFolio</title>
+</head>
+
+<body>
+    <section id="background">
+        
+        <div id="popupOverlay" class="overlay-container"> 
+            <div class="popup-box"> 
+            <span class="poptext">
+                <h2 style="color: orangered;">SCANE</h2>
+                <img src="./Icons/insta.png" alt="instagram logo">
+            </span>
+            @ _.sahilkhan_01 
+            <img id="qrinsta" src="./img/insta qr sk.jpeg" alt="qr code for insta">
+                <button class="btn-close-popup" 
+                onclick="togglePopup()"> 
+                Close 
+            </button> 
+        </span>
+        </div> 
+    </div>
+    <span class="header" id="home">
+
+        <div class="nav">
+            <div class="title">
+
+            <h1>SAHIL KHAN</h1><br>
+            <h2>
+                Under-Graduate BCA Student
+            </h2>
+        </div>
+            
+            <nav class="navbar">
+                <div class="logo">
+                <img src="./img/sk_logo_portfolio-transformed.png" alt="logo">
+            </div>
+            <ul class="list_items">
+                <li id="home" ><a href="#home">Home</a></li>
+                <!-- <li id="projects"><a href="#projects">Projects</a></li> -->
+                <li id="blog"><a href="https://codexnoob.blogspot.com" target="_blank">Blog</a></li>
+                <li id="about"><a href="#skills">Skills</a></li>
+                <li id="templist"><a href="#projects">Projects</a></li>
+                <li id="templist"><a href="#skills">Codes</a></li>
+                <li id="templist"><a href="#skills">Social</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn">More...</button>
+                    <div class="dropdown-content">
+                      <a href="#">Projects</a>
+                      <a href="#">Codes</a>
+                      <a href="#">Media</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="search_bar">
+            <input type="text" name="search" value="search" id="searchbar">
+            <button class="search"></button>
+        </div>
+    </div>
+</span>
+    <section class="section2">
+        <div class="leftsection">
+            <h3>Hii! My Name is <span style="color: orangered;">
+                
+                Sahil Khan <br>
+            </span>
+            I am a Passionate <br>
+            <span id="element"></span>
+        </h3>
+        <div class="bttn">
+
+            <a href="visitPage()" target="_blank">
+
+                <input type="button" name="resume" class="buttn" id="resume" value="MY RESUME" target="">
+                <!-- <button class="buttn" id="resume">MY RESUME<i class="fa-solid fa-chevron-down">icon</i></button> -->
+            </a>
+            <input type="button" class="buttn" id="contact" value="CONTACT" onclick="togglePopup()">
+            
+             
+        </div>
+        </div>
+        <div class="rightsection">
+            <img src="./img/pngwing.com.png" alt="">
+        </div>
+    </section>
+    <!-- <hr style="width: 80%; margin: auto; margin-bottom: 10px;"> -->
+    <section class="section02" id="skills">
+        <h2>My Technical Skills</h2>
+        
+        <div class="skillsframe"></div>
+                        </section>
+                    <section class="section03">
+        <div class="projects">
+            <div class="project prjct1"></div>
+        </div>
+    </section>
+    <footer>    
+        <h5> © Code X Noob : All rights reserved</h5>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/myjs.js"></script>
+</body>
+</html>

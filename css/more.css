@@ -1,0 +1,114 @@
+span#text{
+    align-items: center;
+    max-width: 100%; 
+    text-align: center;
+}
+.section01{
+    /* border: solid red; */
+    margin: auto;
+    width: 90%;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+}
+.container{
+    /* padding: 20px; */
+    margin: auto;
+    height: max-content;
+    width: 50%;
+    border-radius: 14px;
+    /* background-color: rgba(0, 0, 0, 0.409); */
+    /* flex-direction: column; */
+    /* box-shadow: 0px 0px 12px orangered; */
+    justify-content: first baseline;
+    display: block;
+    /* border: solid yellow; */
+}
+.blocks{
+    /* background-color:rgba(103, 103, 103, 0.347); */
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction:row;
+    width: 90%;
+    align-items: center;
+    height: 20%;
+    transition: 0.2s;
+    justify-content: first baseline;
+}
+.blocks img{
+    /* border-radius: 50px; */
+    margin-left: 10px;
+    height: 50px;
+    filter: drop-shadow(0px 0px 12px black);
+}
+.blocks:hover{
+    transform: scale(1.06);
+    box-shadow: 0px 0px 4px white;
+    
+    /* width: ; */
+
+}
+
+.skillsframe02{
+    height: max-content;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: solid red; */
+}
+.progresscircle{
+    height: 8rem;
+    width:8rem ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid blue; */
+    box-shadow: 0px 0px 10px 1px rgb(150, 150, 150);
+    /* background-image: conic-gradient( orangered, orange 40% , rgba(0, 0, 0, 0.466) 0deg);  ; */
+}
+.innercircle{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-style:groove;
+    background-color: rgb(113, 113, 113);
+    box-shadow: 0px 0px 6px 6px #0000008c;
+
+}
+.circle1{
+    background-image: conic-gradient( orangered, orange 90% , rgba(0, 0, 0, 0.466) 0deg);  ;
+}
+.circle2{
+    background-image: conic-gradient( orangered, orange 60% , rgba(0, 0, 0, 0.466) 0deg);  ;
+}
+.circle3{
+    background-image: conic-gradient( orangered, orange 45% , rgba(0, 0, 0, 0.466) 0deg);  ;
+}
+footer{
+    /* margin-top: 13%; */
+    position: sticky;
+}
+@media screen and (max-width:720px){
+    .section01{
+        margin-top: 10%;
+        width: 98%;
+        height: auto;
+    }
+    .container{
+        justify-content: center;
+        margin: 0%;
+        width: max-content;
+        flex-wrap: wrap;
+    }
+    .block{
+        flex-flow: column;
+    }
+}
