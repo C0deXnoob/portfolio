@@ -1,4 +1,4 @@
-@media screen and (max-width:720px){
+@media screen and (max-width:840px){
     
     body{
         margin-top: 5px;
@@ -8,6 +8,15 @@
 
         background-repeat: no-repeat;
     }
+    ::-webkit-scrollbar {
+        background-color: rgba(0, 0, 0, 0);
+        width: 0px;
+        height: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 50px;
+        background:rgba(0, 0, 0, 0);
+      }
     #background{
         /* background-position: 400px 690px; */
         background: rgba(0, 0, 0, 0.45) url(../img/bgwallpaperPhone.jpg); 
@@ -15,6 +24,8 @@
         background-size: cover;
         margin: 0;
         padding: 0;
+    background-attachment: fixed;
+
     }
     .nav{
         width: 100%;
@@ -148,19 +159,109 @@
         display: none;
     }
     .section02{
-        height: auto;
+        padding: 5px;
+        /* overflow: scroll; */
     }
-    .skillsframe{
+    .section02{
+        margin-top: 30%;
 
-        /* display: flow-root; */
-        flex-flow:wrap;
+        padding: 0;
+        max-width: 100%;
+        height: max-content;
     }
-    .block{
-        /* height: / */
+    .container1{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .container1 .textobj{
+        width: 100%;
+    }
+    .container1 .imageobj{
+        width: 100%;
+    }
+    .imageobj img{
+        width: 100%;
+    }
+    .textobj h2{
+        text-align: center;
+        font-size:35px;
+        letter-spacing: 16px;
+    }
+    .textobj p{
+        text-align: start;
+        max-lines: 4;
+        font-size: 22px;
+        margin-bottom: 10%;
+    }
+    .hr{
+        height: 10vh;
+    }
+    .section03{
+        overflow: none;
+        overflow-y: none;
+        overflow-x: none;
+        max-width: 100%;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 13px 13px;
-        row-gap: 13px;
-        width: 45%;
-        /* display:inline-flex; */
+        max-height:100%;
     }
+    .section03 #worktxt{
+        text-align: center;
+        font-size: 40px;
+        padding: 0;
+        letter-spacing: 16px;
+    }
+    .projects{
+        flex-direction: row;
+        width: 100%;
+        height:max-content;
+        overflow: none;
+        overflow-x: none;
+        justify-content: space-evenly;
+    overflow-y:none;
+        position: relative;
+        flex-wrap: wrap;
+        row-gap: 23px;
+    }    
+    .project{
+        margin: auto;
+        display: flex;
+        width: 98%;
+        height: 50vh;
+    }
+    #projecttile{
+        margin-top: 20px;
+        margin-bottom: 0px;
+        text-align: center;
+        rotate: 90deg;
+    }
+    .project:hover{
+        width: 100%;
+        display: flex;
+        height: 50vh;
+    }
+    .seetxt{
+        display: block;
+        margin-top: 60%;
+        border: solid red;
+    
+    }
+    .project:hover .seetxt{
+        display: none;
+    }
+    .project:hover  p{
+        font-size: 15px;
+        display: contents;
+        background-color: rgba(0, 0, 0, 0.646);
+        box-shadow: -2px -5px 12px rgba(0, 0, 0, 0.459);
+        display: block;
+        height: 40%;
+        width: fit-content;
+    }
+
 }

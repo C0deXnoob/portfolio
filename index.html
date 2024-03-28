@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,112 +12,205 @@
     <link
         href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./css/style.css">
-        <!-- <link rel="stylesheet" href="./css/navbar.css"> -->
-        <link rel="stylesheet" href="./css/popup.css">
-    <link rel="stylesheet" href="./css/response.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/navbar.css"> -->
+    <link rel="stylesheet" href="./css/popup.css">
+    <link rel="stylesheet" href="./css/response.css">
+
     <title>My PortFolio</title>
 </head>
 
 <body>
     <section id="background">
-        
-        <div id="popupOverlay" class="overlay-container"> 
-            <div class="popup-box"> 
-            <span class="poptext">
-                <h2 style="color: orangered;">SCANE</h2>
-                <img src="./Icons/insta.png" alt="instagram logo">
-            </span>
-            @ _.sahilkhan_01 
-            <img id="qrinsta" src="./img/insta qr sk.jpeg" alt="qr code for insta">
-                <button class="btn-close-popup" 
-                onclick="togglePopup()"> 
-                Close 
-            </button> 
-        </span>
-        </div> 
-    </div>
-    <span class="header" id="home">
 
-        <div class="nav">
-            <div class="title">
-
-            <h1>SAHIL KHAN</h1><br>
-            <h2>
-                Under-Graduate BCA Student
-            </h2>
-        </div>
-            
-            <nav class="navbar">
-                <div class="logo">
-                <img src="./img/sk_logo_portfolio-transformed.png" alt="logo">
+        <div id="popupOverlay" class="overlay-container">
+            <div class="popup-box">
+                <span class="poptext">
+                    <h2 style="color: orangered;">SCAN</h2>
+                    <img src="./Icons/insta.png" alt="instagram logo">
+                </span>
+                @ _.sahilkhan_01
+                <img id="qrinsta" src="./img/insta qr sk.jpeg" alt="qr code for insta">
+                <button class="btn-close-popup" onclick="togglePopup()">
+                    Close
+                </button>
+                </span>
             </div>
-            <ul class="list_items">
-                <li id="home" ><a href="#home">Home</a></li>
-                <!-- <li id="projects"><a href="#projects">Projects</a></li> -->
-                <li id="blog"><a href="https://codexnoob.blogspot.com" target="_blank">Blog</a></li>
-                <li id="about"><a href="#skills">Skills</a></li>
-                <li id="templist"><a href="#projects">Projects</a></li>
-                <li id="templist"><a href="#skills">Codes</a></li>
-                <li id="templist"><a href="#skills">Social</a></li>
-                <li class="dropdown">
-                    <button class="dropbtn">More...</button>
-                    <div class="dropdown-content">
-                      <a href="#">Projects</a>
-                      <a href="#">Codes</a>
-                      <a href="#">Media</a>
+        </div>
+        <span class="header" id="home">
+
+            <div class="nav">
+                <div class="title">
+
+                    <h1>SAHIL KHAN</h1><br>
+                    <h2>
+                        Under-Graduate BCA Student
+                    </h2>
+                </div>
+
+                <nav class="navbar">
+                    <div class="logo">
+                        <img src="./img/author2.jpg" alt="logo">
                     </div>
-                </li>
-            </ul>
-        </nav>
-        <div class="search_bar">
-            <input type="text" name="search" value="search" id="searchbar">
-            <button class="search"></button>
-        </div>
-    </div>
-</span>
-    <section class="section2">
-        <div class="leftsection">
-            <h3>Hii! My Name is <span style="color: orangered;">
-                
-                Sahil Khan <br>
-            </span>
-            I am a Passionate <br>
-            <span id="element"></span>
-        </h3>
-        <div class="bttn">
+                    <ul class="list_items">
+                        <li id="home"><a href="#home">Home</a></li>
+                        <!-- <li id="projects"><a href="#projects">Projects</a></li> -->
+                        <li id="about"><a href="#aboutme">About</a></li>
+                        <li id=""><a href="#projectstab">Projects</a></li>
+                        <li id="templist"><a href="#skills">Skills</a></li>
+                        <li id="templist"><a href="#social">Social</a></li>
+                        <li id="templist"><a href="https://codexnoob.blogspot.com" target="_blank">Blog</a></li>
+                        <li class="dropdown">
+                            <button class="dropbtn">More...</button>
+                            <div class="dropdown-content">
+                                <a href="#projectstab">Projects</a>
+                                <a href="#">Codes</a>
+                                <a href="#">Media</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search_bar">
+                    <input type="text" name="search" value="search" id="searchbar">
+                    <button class="search"></button>
+                </div>
+            </div>
+        </span>
+        <section class="section2">
+            <div class="leftsection">
+                <h3>Hii! My Name is <span style="color: orangered;">
 
-            <a href="visitPage()" target="_blank">
+                        Sahil Khan <br>
+                    </span>
+                    I am a Passionate <br>
+                    <span id="element"></span>
+                </h3>
+                <div class="bttn">
 
-                <input type="button" name="resume" class="buttn" id="resume" value="MY RESUME" target="">
-                <!-- <button class="buttn" id="resume">MY RESUME<i class="fa-solid fa-chevron-down">icon</i></button> -->
-            </a>
-            <input type="button" class="buttn" id="contact" value="CONTACT" onclick="togglePopup()">
-            
-             
+                    <input type="button" name="resume" class="buttn" id="resume" value="MY RESUME"
+                        onclick="visitPage()">
+                    <input type="button" class="buttn" id="contact" value="CONTACT" onclick="togglePopup()">
+
+
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="./img/pngwing.com.png" alt="">
+            </div>
+        </section>
+        <!-- <hr style="width: 80%; margin: auto; margin-bottom: 10px;"> -->
+        <section class="section02" id="aboutme">
+            <div class="container1">
+                <div class="textobj">
+
+                    <h2>OBJECTIVE</h2><br>
+                    <p>Passionate front-end web developer and designer seeking to contribute innovative design solutions
+                        and exceptional coding skills to dynamic projects, driving user engagement and client
+                        satisfaction.</p>
+                </div>
+                <div class="imageobj">
+                    <img src="./svg/objective.svg" alt="SVG IMAGE">
+                </div>
+            </div>
+            <div class="hr">
+
+                <hr style="width: 80%;">
+            </div>
+            <div class="container1 container2">
+                <div class="textobj">
+
+                    <h2>MY GOALS</h2><br>
+                    <p><b style="font-size: 23px;">Goals:</b> <br>
+                        1. Master advanced JavaScript frameworks like React or Vue to enhance interactivity and user
+                        experience.<br><br>
+                        2. Acquire proficiency in responsive design techniques to ensure seamless performance across all
+                        devices.<br><br>
+                        3. Collaborate with UI/UX designers to refine design concepts and deliver visually stunning
+                        websites.<br><br>
+                        4. Stay updated with emerging web technologies and trends to continually elevate skills and stay
+                        ahead in the industry.<br></p>
+                </div>
+                <div class="imageobj">
+                    <img src="./svg/goals.svg" alt="SVG IMAGE">
+                </div>
+            </div>
+        </section>
+        <div class="hr">
+
+            <hr style="width: 80%;">
         </div>
-        </div>
-        <div class="rightsection">
-            <img src="./img/pngwing.com.png" alt="">
-        </div>
-    </section>
-    <!-- <hr style="width: 80%; margin: auto; margin-bottom: 10px;"> -->
-    <section class="section02" id="skills">
-        <h2>My Technical Skills</h2>
-        
-        <div class="skillsframe"></div>
-                        </section>
-                    <section class="section03">
-        <div class="projects">
-            <div class="project prjct1"></div>
-        </div>
-    </section>
-    <footer>    
-        <h5> © Code X Noob : All rights reserved</h5>
-    </footer>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="./js/myjs.js"></script>
+        <section class="section03">
+            <h2 id="worktxt">MY WORK</h2>
+            <div class="projects" id="projectstab" >
+                <div class="project p1" >
+                    <h2 id="projecttile" onclick="window.open('http://www.google.com','_newtab')"> PROJECT 1</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore blanditiis quos perferendis est
+                        dolorem! Alias fugit, minus corporis provident soluta temporibus nihil dolorem voluptates.
+                        Atque, ipsa? Exercitationem nostrum at nobis.
+                    </p>
+                </div>
+                <div class="project p2" >
+                    <h2 id="projecttile" onclick="window.open('http://www.google.com','_newtab')">PROJECT 2</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore blanditiis quos perferendis est
+                        dolorem! Alias fugit, minus corporis provident soluta temporibus nihil dolorem voluptates.
+                        Atque, ipsa? Exercitationem nostrum at nobis.
+                    </p>
+                </div>
+                <div class="project p3">
+                    <h2 id="projecttile" onclick="window.open('http://www.google.com','_newtab')">PROJECT 3</h2>
+                    <p id="ptext">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore blanditiis quos perferendis est
+                        dolorem! Alias fugit, minus corporis provident soluta temporibus nihil dolorem voluptates.
+                        Atque, ipsa? Exercitationem nostrum at nobis.
+                    </p>
+                </div>
+                <div class="project p4" >
+                    <h2 id="projecttile" onclick="window.open('http://www.google.com','_newtab')">PROJECT 4</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore blanditiis quos perferendis est
+                        dolorem! Alias fugit, minus corporis provident soluta temporibus nihil dolorem voluptates.
+                        Atque, ipsa? Exercitationem nostrum at nobis.
+                    </p>
+                </div>
+                <div class="project p5">
+                    <h2 id="projecttile" onclick="window.open('http://www.google.com','_newtab')">PROJECT 5</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore blanditiis quos perferendis est
+                        dolorem! Alias fugit, minus corporis provident soluta temporibus nihil dolorem voluptates.
+                        Atque, ipsa? Exercitationem nostrum at nobis.
+                    </p>
+                </div>
+                <div class="project p6">
+                    <h2 id="projecttile" onclick="window.open('http://www.google.com','_newtab')">PROJECT 6</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore blanditiis quos perferendis est
+                        dolorem! Alias fugit, minus corporis provident soluta temporibus nihil dolorem voluptates.
+                        Atque, ipsa? Exercitationem nostrum at nobis.
+                    </p>
+                </div>
+            </div>
+            <div class="seemore"><a id="seemoretxt" href="">See More...</a></div>
+        </section>
+
+        <footer>
+            <h5> Copyright © 2024 My Portfolio <br>br
+                CODE X NOOB</h5>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>$(".ptxt").hide();
+            $("#seetxt").click(function() {
+                $(".ptxt").show(); // Show elements with class ptxt
+                alert('Showing');
+            });
+    </script>
+        <script src="./js/myjs.js"></script>
 </body>
+
 </html>
