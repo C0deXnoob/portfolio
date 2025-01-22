@@ -467,6 +467,7 @@ body{
 }
 .p1{
     background: rgba(0, 0, 0, 0.603) url(https://drive.google.com/file/d/1VmzQDDFnXtNwzsdaIA9M0FMGHpmjlazF/view?usp=sharing);
+    background-size: cover;
 }
 .p2{
     background: rgba(0, 0, 0, 0.603) url(https://kinsta.com/wp-content/uploads/2021/04/kinsta-home-page.png);
