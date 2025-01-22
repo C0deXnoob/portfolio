@@ -466,7 +466,7 @@ body{
     background-repeat: no-repeat;
 }
 .p1{
-    background: rgba(0, 0, 0, 0.603) url(img/My Virtual Library_page-0001.jpg);
+    background: rgba(0, 0, 0, 0.603) url(../img/My\ Virtual\ Library_page-0001.jpg);
 }
 .p2{
     background: rgba(0, 0, 0, 0.603) url(https://kinsta.com/wp-content/uploads/2021/04/kinsta-home-page.png);
